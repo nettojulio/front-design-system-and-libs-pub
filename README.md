@@ -4,9 +4,10 @@
 
 ## Exercícios de classe 🏫
 
-1. Pokedex
+1. Pokedex - <https://front-design-system-and-libs-pub-classe-01.vercel.app>
 
 Preencha a checklist para finalizar o exercício:
--   [ ] Forkar o repositório
+
+- [x] Forkar o repositório
 
 ###### tags: `modulo-3` `frontend` `react-use` `material-ui`

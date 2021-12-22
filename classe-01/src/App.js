@@ -7,17 +7,19 @@ import Navbar from './components/Navbar';
 import Search from './components/Search';
 
 function App() {
-  const [cacheSearch, setCacheSearch, removeCacheSearch] = useLocalStorage('pokemonSearch', []);
+  const [cacheSearch, setCacheSearch] = useLocalStorage('pokemonSearch', []);
   const [pokemon, setPokemon] = useState({});
   const [searchPokemon, setSearchPokemon] = useState('');
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
     externalRequest();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
     saveInCache();
+    // eslint-disable-next-line
   }, [pokemon]);
 
   useEffect(() => {
